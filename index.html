@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <span class = "left">
+                <h1>TEAM 1</h1>
+                <ol>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                </ol>
+            </span>
+            <span class = "mid">
+                <div class="scoreboard">
+                    <span class="scoreOne">
+                        <h1 id="t1points-el" onclick="Oneplus()">0</h1>
+                    </span>
+                    <span style="display: inline-block;">
+                        <h1>:</h1>
+                    </span>
+                    <span class="scoreTwo">
+                        <h1 id="t2points-el" onclick="Twoplus()">0</h1>
+                    </span>
+                </div>
+                <div class="fauls">
+                    <h3>fauls</h3>
+                    <span>
+                        <button class="faul-btn" id="team-one-fauls-el" onclick="oneF()">0</button>
+                    </span>
+                    <span>
+                        <button class="faul-btn" id="team-two-fauls-el" onclick="twoF()">0</button>
+                    </span>
+                </div>
+            </span>
+            <span class = "right">
+                <h1>TEAM 2</h1>
+                <ol>
+                    <li>Player 1 </li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                    <li>Player 1</li>
+                </ol>
+            </span>
+        </main>
+        <footer>
+            <button onclick="resetAll()" id="reset-btn">RESET</button>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+
+</html>
